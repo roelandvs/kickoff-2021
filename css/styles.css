@@ -20,7 +20,6 @@ html {
 #roeland {
 	width: 400px;
 	background-color: #fff;
-	border: 1px solid grey;
 	padding: 30px;
 	overflow: hidden;
 	position: relative;
@@ -105,8 +104,6 @@ html {
 	height: 100px;
 	z-index: 2;
 	position: absolute;
-/*	top: 0;
-	left: 0;*/
 	border-radius: 100px;
 }
 
