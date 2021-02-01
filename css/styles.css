@@ -22,9 +22,13 @@ html {
 	background-color: #fff;
 	border: 1px solid grey;
 	padding: 30px;
+	overflow: hidden;
+	position: relative;
 }
 
 #roeland section {
+	z-index: 5;
+	position: relative;
 	background-color: #fff;
 	padding: 35px;
 	border-radius: 15px;
@@ -93,4 +97,41 @@ html {
 	margin-bottom: 10px;
 	margin-left: calc((100% / 2) - 60px);
 	border-radius: 100px;
+}
+
+.pink-circle {
+	background-color: #F6DEFF;
+	width: 100px;
+	height: 100px;
+	z-index: 2;
+	position: absolute;
+/*	top: 0;
+	left: 0;*/
+	border-radius: 100px;
+}
+
+.circle-1 {
+	left: -40px;
+	top: -40px;
+	width: 250px;
+	height: 250px;
+}
+
+.circle-2 {
+	bottom: -30px;
+	left: -40px;
+}
+
+.circle-3 {
+	bottom: -40px;
+	right: 20px;
+	width: 150px;
+	height: 150px;
+}
+
+.circle-4 {
+	bottom: 350px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
 }
